@@ -1,1 +1,1 @@
-text file 2
+text file 2Hello from text file 2
