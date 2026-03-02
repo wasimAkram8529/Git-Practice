@@ -1,0 +1,3 @@
+Hello from text file 4
+Text file modified
+Text file modified second time
