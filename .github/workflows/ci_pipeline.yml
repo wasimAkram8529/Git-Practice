@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - "main"
+      - "developer"
   pull_request:
     branches:
       - "main"
+      - "developer"
     types:
       - "opened"
 
@@ -42,5 +44,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: vite-dist
+          name: vite-dist-${{ github.ref_name }}
           path: frontend/dist
